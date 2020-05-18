@@ -3,10 +3,10 @@ package edu.cnm.deepdive;
 public class TemperatureConversion {
 
   public static void main(String[] args) {
-    double c = 100;
-    double f = 32;
-    System.out.println("Celcius " + c + " = " + convertC2F(c) + " Fahrenheit");
-    System.out.println("Fahrenheit " + f + " = " + convertF2C(f) + " Celcius");
+    double tempCelcius = 100;
+    double tempFahrenheit = 32;
+    System.out.println("Celcius " + tempCelcius + " = " + convertC2F(tempCelcius) + " Fahrenheit");
+    System.out.println("Fahrenheit " + tempFahrenheit + " = " + convertF2C(tempFahrenheit) + " Celcius");
   }
 
   public static double convertC2F(double celcius) {
